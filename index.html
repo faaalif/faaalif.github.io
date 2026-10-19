@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fátima Vázquez | Portafolio de TI</title>
+<meta name="description" content="Portafolio de Fátima Vázquez, estudiante de Tecnologías de la Información. / IT student portfolio. Java, C, C++, PHP, MySQL, AWS.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&family=Nunito+Sans:wght@400;600;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<script>document.documentElement.classList.add("js");</script>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="bar" id="bar">
+  <div class="wrap">
+    <nav aria-label="Principal">
+      <a class="logo" href="#top">Fátima V.</a>
+      <div class="right">
+        <ul>
+          <li><a href="#proyectos" data-i18n="nav_projects">Proyectos</a></li>
+          <li><a href="#habilidades" data-i18n="nav_skills">Habilidades</a></li>
+          <li><a href="#certificaciones" data-i18n="nav_certs">Certificaciones</a></li>
+          <li><a href="#contacto" data-i18n="nav_contact">Contacto</a></li>
+        </ul>
+        <div class="lang" role="group" aria-label="Idioma / Language">
+          <button type="button" data-lang="es" aria-pressed="true">ES</button>
+          <button type="button" data-lang="en" aria-pressed="false">EN</button>
+        </div>
+        <button type="button" class="iconbtn" id="theme" aria-label="Cambiar tema">◐</button>
+      </div>
+    </nav>
+  </div>
+</div>
+
+<div class="wrap">
+
+<header class="hero" id="top">
+  <div class="hero-bg" aria-hidden="true"><div class="blob b1"></div><div class="blob b2"></div><div class="blob b3"></div></div>
+  <div>
+    <h1>Fátima<span class="grad">Vázquez</span></h1>
+    <p class="lead" data-i18n-html="lead">Estudiante de <strong>Tecnologías de la Información</strong> en la Universidad Politécnica de San Luis Potosí. Construyo apps, bases de datos y proyectos con código. Busco mis primeras prácticas en desarrollo, bases de datos o soporte técnico.</p>
+    <div class="cta">
+      <a class="btn main cv-link" href="assets/cv/CV_Fatima_Vazquez.pdf" download data-i18n="cta_cv">Descargar CV</a>
+      <a class="btn line" href="#contacto" data-i18n="cta_write">Escríbeme</a>
+    </div>
+    <div class="social">
+      <a href="https://github.com/faaalif">GitHub</a>
+      <a href="https://www.linkedin.com/in/fatima-vazquez-856a06443">LinkedIn</a>
+    </div>
+  </div>
+
+  <div class="win" aria-hidden="true">
+    <div class="win-top"><i style="background:var(--n1)"></i><i style="background:var(--n3)"></i><i style="background:var(--n4)"></i><b>portfolio.js</b></div>
+<pre><code><span class="l" style="--i:0"><span class="k">const</span> <span class="t">fali</span> <span class="x">=</span> <span class="x">{</span></span><span class="l" style="--i:1">  <span class="p">role</span><span class="x">:</span> <span class="s">"IT student"</span><span class="x">,</span></span><span class="l" style="--i:2">  <span class="p">stack</span><span class="x">:</span> <span class="x">[</span><span class="s">"Java"</span><span class="x">,</span> <span class="s">"C++"</span><span class="x">,</span> <span class="s">"PHP"</span><span class="x">,</span></span><span class="l" style="--i:3">           <span class="s">"MySQL"</span><span class="x">,</span> <span class="s">"AWS"</span><span class="x">],</span></span><span class="l" style="--i:4">  <span class="p">building</span><span class="x">:</span> <span class="s">"things that work"</span><span class="x">,</span></span><span class="l" style="--i:5">  <span class="p">lookingFor</span><span class="x">:</span> <span class="s">"internship"</span><span class="x">,</span></span><span class="l" style="--i:6">  <span class="p">available</span><span class="x">:</span> <span class="k">true</span><span class="x">,</span></span><span class="l" style="--i:7"><span class="x">};</span></span></code></pre>
+  </div>
+</header>
+
+<div class="stats reveal">
+  <div class="stat"><b class="grad num" data-t="6">0</b><span data-i18n="st_proj">Proyectos</span></div>
+  <div class="stat"><b class="grad num" data-t="7">0</b><span data-i18n="st_cert">Certificaciones</span></div>
+  <div class="stat"><b class="grad num" data-t="13">0</b><span data-i18n="st_tech">Tecnologías</span></div>
+</div>
+
+<div class="marquee" aria-hidden="true"><div class="track" id="track"></div></div>
+
+<section id="proyectos">
+  <h2 class="reveal" data-i18n="nav_projects">Proyectos</h2>
+  <div class="grid">
+
+    <article class="card wide reveal" style="--c:var(--n1)">
+      <h3 data-i18n="piano_t">Piano virtual</h3>
+      <span class="tech">C++, OpenCV</span>
+      <p data-i18n="piano_d">Aplicación de visión por computadora que detecta colores en la imagen de la cámara y asigna a cada uno una nota musical.</p>
+      <a class="code" href="https://github.com/faaalif/PianoVirtual" data-i18n="code">Ver código en GitHub</a>
+      <p class="keys-label" data-i18n="keys_label">Una demo rápida: en el proyecto cada color es una nota. Toca las teclas.</p>
+      <div class="keys" role="group" aria-label="Piano">
+        <button class="key" data-f="261.63">do</button>
+        <button class="key" data-f="293.66">re</button>
+        <button class="key" data-f="329.63">mi</button>
+        <button class="key" data-f="349.23">fa</button>
+        <button class="key" data-f="392.00">sol</button>
+        <button class="key" data-f="440.00">la</button>
+        <button class="key" data-f="493.88">si</button>
+      </div>
+    </article>
+
+    <article class="card reveal" style="--c:var(--n2)">
+      <h3 data-i18n="kardex_t">Sistema de kardex académico</h3>
+      <span class="tech">PHP, MySQL</span>
+      <p data-i18n="kardex_d">Proyecto en equipo. Plataforma web donde el alumno ingresa su matrícula y obtiene su promedio, su horario y sugerencias de materias para el siguiente semestre. Tiene usuarios de administrador y de docente. Me encargué principalmente del front-end y colaboré en la base de datos.</p>
+      <a class="code" href="http://leoconectaupslp.atwebpages.com/login.php" target="_blank" rel="noopener" data-i18n="kardex_link">Ver versión de prueba</a>
+      <span class="note" data-i18n="kardex_n">El dominio original ya no está activo. Esta es la versión de prueba.</span>
+    </article>
+
+    <article class="card reveal" style="--c:var(--n3)">
+      <h3 data-i18n="chat_t">Chat en tiempo real</h3>
+      <span class="tech">Java, AWS</span>
+      <p data-i18n="chat_d">Proyecto en equipo. Aplicación de mensajería en vivo con el servidor alojado en AWS.</p>
+      <span class="note" data-i18n="chat_n">El servidor ya no está activo. Código y capturas próximamente.</span>
+    </article>
+
+    <article class="card reveal" style="--c:var(--n4)">
+      <h3>Ball Sort</h3>
+      <span class="tech">C</span>
+      <p data-i18n="ball_d">Juego de lógica en consola, hecho con programación estructurada.</p>
+      <a class="code" href="https://github.com/faaalif/Ballsort" data-i18n="code">Ver código en GitHub</a>
+    </article>
+
+    <article class="card reveal" style="--c:var(--n5)">
+      <h3 data-i18n="ig_t">Comparador de seguidores de Instagram</h3>
+      <span class="tech">Python</span>
+      <p data-i18n="ig_d">Script que lee los datos exportados de Instagram e identifica las cuentas que sigues y no te siguen de vuelta.</p>
+      <a class="code" href="https://github.com/faaalif/ig_unfollowers" data-i18n="code">Ver código en GitHub</a>
+    </article>
+
+    <article class="card wide reveal" style="--c:var(--n6)">
+      <h3 data-i18n="plan_t">Planificador de estudio y tareas</h3>
+      <span class="tech" data-i18n="plan_tech">Aplicación web, en desarrollo</span>
+      <p data-i18n="plan_d">Organiza tareas y tiempo de estudio. Replanifica automáticamente cuando algo se atrasa y muestra un mapa de calor con tu carga de trabajo por día.</p>
+    </article>
+
+  </div>
+</section>
+
+<section id="habilidades">
+  <h2 class="reveal" data-i18n="nav_skills">Habilidades</h2>
+  <div class="skills reveal">
+    <div class="skillrow" style="--c:var(--n1)">
+      <h3 data-i18n="sk_lang">Lenguajes</h3>
+      <div class="chips"><span>Java</span><span>C</span><span>C++</span><span>JavaScript</span><span>PHP</span><span data-i18n="sk_py">Python (básico)</span></div>
+    </div>
+    <div class="skillrow" style="--c:var(--n5)">
+      <h3>Web</h3>
+      <div class="chips"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+    </div>
+    <div class="skillrow" style="--c:var(--n4)">
+      <h3 data-i18n="sk_db">Bases de datos</h3>
+      <div class="chips"><span>MySQL</span></div>
+    </div>
+    <div class="skillrow" style="--c:var(--n3)">
+      <h3 data-i18n="sk_cloud">Nube y herramientas</h3>
+      <div class="chips"><span>AWS</span><span>Git</span><span>GitHub</span><span>Linux</span><span>Word</span><span>Excel</span><span>PowerPoint</span></div>
+    </div>
+    <div class="skillrow">
+      <h3 data-i18n="sk_spoken">Idiomas</h3>
+      <p data-i18n="sk_spoken_d">Español nativo. Inglés intermedio, nivel B2 con certificación Cambridge.</p>
+    </div>
+  </div>
+
+  <h3 class="sub reveal" data-i18n="soft_h">Habilidades blandas</h3>
+  <div class="softs">
+    <div class="soft reveal" style="--c:var(--n1)"><h4 data-i18n="soft1_t">Trabajo en equipo</h4><p data-i18n="soft1_d">Participé en el desarrollo del chat en tiempo real como proyecto en equipo.</p></div>
+    <div class="soft reveal" style="--c:var(--n4)"><h4 data-i18n="soft2_t">Aprendizaje continuo</h4><p data-i18n="soft2_d">Aprendo herramientas nuevas construyendo proyectos reales, como OpenCV, AWS y MySQL.</p></div>
+    <div class="soft reveal" style="--c:var(--n5)"><h4 data-i18n="soft3_t">Resolución de problemas</h4><p data-i18n="soft3_d">Me gusta convertir problemas en lógica: juegos, visión por computadora y automatización de tareas.</p></div>
+    <div class="soft reveal" style="--c:var(--n7)"><h4 data-i18n="soft4_t">Comunicación</h4><p data-i18n="soft4_d">Me comunico con claridad en español y en inglés (nivel B2).</p></div>
+  </div>
+</section>
+
+<section id="certificaciones">
+  <h2 class="reveal" data-i18n="nav_certs">Certificaciones</h2>
+  <div class="certs">
+    <div class="cert reveal" style="--c:var(--n5)"><h3>IT Essentials</h3><p>Cisco Networking Academy, 2026</p></div>
+    <div class="cert reveal" style="--c:var(--n5)"><h3>Linux Essentials</h3><p>Cisco Networking Academy, 2026</p></div>
+    <div class="cert reveal" style="--c:var(--n5)"><h3>Introduction to IoT</h3><p>Cisco Networking Academy, 2024</p></div>
+    <div class="cert reveal" style="--c:var(--n6)"><h3>Microsoft Office Specialist: Word Associate</h3><p>Office 2019</p></div>
+    <div class="cert reveal" style="--c:var(--n6)"><h3>Microsoft Office Specialist: Excel Associate</h3><p>Office 2019</p></div>
+    <div class="cert reveal" style="--c:var(--n6)"><h3>Microsoft Office Specialist: PowerPoint Associate</h3><p>Office 2019</p></div>
+    <div class="cert reveal" style="--c:var(--n6)"><h3>Microsoft Office Specialist: Associate</h3><p>Office 2019</p></div>
+  </div>
+</section>
+
+<section id="contacto">
+  <h2 class="reveal" data-i18n="nav_contact">Contacto</h2>
+  <div class="contact-grid reveal">
+    <div>
+      <p data-i18n="contact_intro">¿Tienes una vacante de prácticas o quieres platicar de un proyecto? Déjame un mensaje y te respondo por correo.</p>
+      <div class="links">
+        <a href="mailto:flvazquezz@hotmail.com">flvazquezz@hotmail.com</a>
+        <a href="https://www.linkedin.com/in/fatima-vazquez-856a06443">LinkedIn</a>
+        <a href="https://github.com/faaalif">GitHub</a>
+        <a class="cv-link" href="assets/cv/CV_Fatima_Vazquez.pdf" download data-i18n="cv_pdf">Descargar CV en PDF</a>
+      </div>
+    </div>
+
+    <form id="contactForm" action="https://formsubmit.co/flvazquezz@hotmail.com" method="POST" novalidate>
+      <div class="ok" id="ok" role="status" data-i18n="ok">Mensaje enviado. Gracias, te respondo pronto.</div>
+      <label for="nombre" data-i18n="f_name">Nombre</label>
+      <input type="text" id="nombre" name="nombre" required autocomplete="name">
+      <label for="correo" data-i18n="f_mail">Tu correo</label>
+      <input type="email" id="correo" name="email" required autocomplete="email">
+      <label for="mensaje" data-i18n="f_msg">Mensaje</label>
+      <textarea id="mensaje" name="mensaje" required></textarea>
+      <input type="hidden" name="_subject" value="Nuevo mensaje desde tu portafolio">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_template" value="table">
+      <input type="hidden" name="_next" value="https://faaalif.github.io/?enviado=1#contacto">
+      <div class="hp" aria-hidden="true"><label>No llenar<input type="text" name="_honey" tabindex="-1" autocomplete="off"></label></div>
+      <p class="errmsg" id="errmsg" role="alert" hidden data-i18n="f_err">Revisa los campos marcados: todos son obligatorios y el correo debe ser válido.</p>
+      <button class="btn main" type="submit" data-i18n="f_send">Enviar mensaje</button>
+    </form>
+  </div>
+</section>
+
+<footer>Fátima Vázquez Flores, San Luis Potosí, S.L.P.</footer>
+</div>
+
+<script src="js/main.js" defer></script>
+</body>
+</html>
